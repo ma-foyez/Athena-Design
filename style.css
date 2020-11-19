@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand img {
+    height: 90px;
+}
+
+a.nav-link {
+    font-weight: 800;
+    margin: 0 10px;
+}
+
+.brand-btn {
+    background: linear-gradient( to right, #4c87d3 0%, #31db86 100%);
+    padding: 10px 25px!important;
+    color: #fff!important;
+    border-radius: 31px 0px;
+    display: inline-block!important;
+    border: none;
+    text-decoration: none;
+}
+
+.top-banner-section {
+    background-image: url('./image/too-bg.png');
+    background-position: center;
+}
+
+/*service section css*/
+
+#service {
+    background-color: #F4F8FE;
+    background-image: url('image/service-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20px;
+}
+
+/*running project section*/
+
+#pricing {
+    background-image: url('image/pricing-bg.png');
+    background-position: 679px -173px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Achivement section*/
+
+#achivement {
+    background-color: #F4F8FE;
+}
+
+.achive-right {
+    /* background: linear-gradient(to right, #4c87d3 0%, #31db86 100%); */
+    border-radius: 0 65px;
+    background-color: #fff;
+    background: #ffffff;
+    box-shadow: 5px 5px 15px #e6e6e6, -5px -5px 15px #ffffff;
+}
+
+.achive-left {
+    /* background: linear-gradient(to right, #4c87d3 0%, #31db86 100%); */
+    border-radius: 65px 0px;
+    background-color: #fff;
+    background: #ffffff;
+    box-shadow: 5px 5px 15px #e6e6e6, -5px -5px 15px #ffffff;
+}
+
+.achive-icon {
+    font-size: 60px;
+    text-align: left;
+    color: rgb(97, 97, 97);
+}
+
+.achive-amount {
+    font-weight: 800;
+    color: rgb(83, 83, 83);
+}
+
+.acive-text {
+    color: grey;
+    ;
+}
+
+/*team section css*/
+
+#team {
+    background-color: #F4F8FE;
+}
+
+.team-card {
+    background-color: #fff;
+    background: #ffffff;
+    box-shadow: 5px 5px 15px #e6e6e6, -5px -5px 15px #ffffff;
+    border-radius: 10px
+}
+
+.team-border {
+    border-bottom: 2px solid #2AF598;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/*Contact Section*/
+
+#contact {
+    background-color: #F4F8FE;
+}
+.contact-form{
+    position: relative;
+}
+.contact-form .form-input{
+    border: none!important;
+    width: 100%;
+    line-height: 40px;
+}
+.contact-form .form-input:focus{
+    outline: none;
+}
+.contact-btn{
+    background: linear-gradient( to right, #4c87d3 0%, #31db86 100%);
+    padding: 9px 25px!important;
+    color: #fff!important;
+    display: inline-block!important;
+    border: none;
+    text-decoration: none;
+    position: absolute;
+    top: 12%;
+    right: 1%;
+}
+/*Footer Section*/
+#footer{
+    background-color: #F4F8FE;
+}
+.logo-with-social img{
+    height: 90px;
+}
+#footer a{
+    text-decoration: none;
+}
+.social a{
+    color: black;
+    font-size: 22px;
+    margin: 6px;
+    background-color: grey;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+.block a{
+    display: block;
+    color: grey;
+    font-weight: 400;
+    margin: 5px;
+    transition: 0.5s ease;;
+}
+.block a:hover{
+    color: #20d684;
+}
