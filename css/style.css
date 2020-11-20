@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand img {
+    height: 90px;
+}
+
+a.nav-link {
+    font-weight: 700;
+    margin: 0 5px;
+}
+.brand-btn {
+    background: linear-gradient( to right, #4c87d3 0%, #31db86 100%);
+    padding: 10px 25px!important;
+    color: #fff!important;
+    border-radius: 31px 0px;
+    display: inline-block!important;
+    border: none;
+    text-decoration: none;
+}
+
+
+@keyframes scroll-down {
+    from {
+        transform: translate(0, -100%)
+    }
+    to {
+        transfrom: translate(0, 0)
+    }
+}
+
+.navfix {
+    position: fixed;
+    top: 0;
+    background-color: #F4F8FE;
+    z-index: 99;
+    width: 100%;
+    right: 0;
+    animation-name: scroll-down;
+    animation-duration: 1s;
+}
+
+.top-banner-section{
+    background-image: url('../image/Group\ 88.png');
+    background-position: calc(56% - -466px) calc(48% - 157px);
+    background-repeat: no-repeat;
+}
+
+/*service section css*/
+#service {
+    background-color: #F4F8FE;
+    background-image: url('../image/service-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+#active-service-card {
+    box-shadow: 5px 5px 15px #e6e6e6, -5px -5px 15px #ffffff;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 65px 0px;
+    text-align: center;
+}
+
+.service-card {
+    padding: 20px 40px;
+    text-align: center;
+    transition: 0.5s ease;
+}
+
+.service-card:hover {
+    box-shadow: 5px 5px 15px #e6e6e6, -5px -5px 15px #ffffff;
+    background-color: #ffffff;
+    border-radius: 65px 0px;
+}
+
+/*running project section*/
+
+#pricing {
+    background-image: url('../image/pricing-bg.png');
+    background-position: 679px -173px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Achivement section*/
+#achivement {
+    background-color: #F4F8FE;
+}
+.achive-right {
+    border-radius: 0 65px;
+    box-shadow: 5px 5px 15px #e6e6e6, -5px -5px 15px #ffffff;
+}
+
+.achive-left {
+    border-radius: 65px 0px;
+    box-shadow: 5px 5px 15px #e6e6e6, -5px -5px 15px #ffffff;
+}
+
+#active-achivement {
+    background: linear-gradient( to right, #31db86 0%, #4c87d3 100%);
+    color: #fff;
+}
+.achive-icon {
+    font-size: 60px;
+    text-align: left;
+}
+.achive-amount {
+    font-weight: 800;
+}
+.achivement-hover{
+    background-color: #ffffff;
+    color: grey;
+    font-weight: 900;
+    transition: 0.9s;
+}
+.achivement-hover:hover {
+    background: linear-gradient( to right, #31db86 0%, #4c87d3 100%);
+    color: #fff;
+}
+
+/*team section css*/
+
+#team {
+    background-color: #F4F8FE;
+}
+.active-team{
+    background-color: #fff;
+    background: #ffffff;
+    box-shadow: 5px 5px 15px #e6e6e6, -5px -5px 15px #ffffff;
+    border-radius: 10px;
+    border: 4px solid #55f7ae;
+}
+.team-card {
+    background-color: #fff;
+    background: #ffffff;
+    box-shadow: 5px 5px 15px #e6e6e6, -5px -5px 15px #ffffff;
+    border-radius: 10px;
+    border: 4px solid #fff;
+    transition: 0.5s ease all;
+}
+.team-card:hover{
+    border: 4px solid #55f7ae;
+}
+.team-card:hover .team-card-btn{
+    opacity: 1;
+}
+.team-card .team-card-btn{
+    opacity: 0;
+}
+.team-border {
+    border-bottom: 2px solid #2AF598;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/*Contact Section*/
+
+#contact {
+    background-color: #F4F8FE;
+}
+
+.contact-form {
+    position: relative;
+}
+
+.contact-form .form-input {
+    border: none!important;
+    width: 100%;
+    line-height: 40px;
+}
+
+.contact-form .form-input:focus {
+    outline: none;
+}
+
+.contact-btn {
+    background: linear-gradient( to right, #4c87d3 0%, #31db86 100%);
+    padding: 9px 25px!important;
+    color: #fff!important;
+    display: inline-block!important;
+    border: none;
+    text-decoration: none;
+    position: absolute;
+    top: 12%;
+    right: 1%;
+}
+
+/*Footer Section*/
+
+#footer {
+    background-color: #F4F8FE;
+}
+
+.logo-with-social img {
+    height: 90px;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+.social a {
+    color: black;
+    font-size: 22px;
+    margin: 6px;
+    background-color: grey;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: #fff;
+    border: 2px solid grey;
+    transition: 0.5s ease;
+}
+.social a:hover{
+    background: #55f7ae;
+    color: grey;
+}
+.block a {
+    display: block;
+    color: grey;
+    font-weight: 400;
+    margin: 5px;
+    transition: 0.5s ease;
+}
+
+.block a:hover {
+    color: linear-gradient( to right, #4c87d3 0%, #31db86 100%);
+}
+
+/*Top Scroll Button*/
+
+.top-scroll {
+    height: 50px;
+    text-align: center;
+    width: 50px;
+    background: linear-gradient( to right, #4c87d3 0%, #31db86 100%);
+    color: #fff;
+    border-radius: 50%;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: none;
+    font-size: 32px;
+    cursor: pointer;
+    font-size: 32px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    animation: top 1s;
+}
+
+@keyframes top {
+    from {
+        top: 30%;
+    }
+    to {
+        top: 90%;
+    }
+}
+
+.top-scroll:hover {
+    background: grey;
+    color: #2AF598;
+}
